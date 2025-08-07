@@ -1,0 +1,14 @@
+path: D:\DO_AN_CUOI_KI\XLAS\person-3
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['body']
+
+roboflow:
+  workspace: yolov10-rtjve
+  project: person-xnwdm
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov10-rtjve/person-xnwdm/dataset/3
